@@ -2,9 +2,9 @@
 # dict表示字典，使用{}表示，存储key:value对
 # 使用len()函数可以计算所有集合的大小，包括dict
 d = {
-	'Adam': 95,
-	'Lisa': 85,
-	'Bart': 59
+    'Adam': 95,
+    'Lisa': 85,
+    'Bart': 59
 }
 
 # 使用key从dict中查找对应的value，value = d[key]
@@ -14,7 +14,7 @@ print('Adam:', d['Adam'])
 # 为避免key不存在时报的KeyError，有两种办法
 # 1. 使用in判断key是否存在
 if 'Paul' in d:
-	print(d['Paul'])
+    print(d['Paul'])
 if 'Paul' in d.keys():
     print(d['Paul'])
 # 2. 使用dict本身提供的一个get方法，在key不存在的时候，返回None
